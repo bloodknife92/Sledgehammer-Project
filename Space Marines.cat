@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="cd14-db2d-022a-f058" name="Space Marines" gameSystemId="sys-6f49-575b-2f36-91f2" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication name="Space Marines Army List" id="8fc3-ec0f-e08c-c22f" hidden="false"/>
+  </publications>
+  <sharedProfiles>
+    <profile name="Captain" hidden="false" id="bc1f-c66a-554f-7e92" publicationId="8fc3-ec0f-e08c-c22f" typeId="23c1-e5fe-aea5-6b23" typeName="Tags"/>
+    <profile name="Lieutenant" typeId="23c1-e5fe-aea5-6b23" typeName="Tags" hidden="false" id="15f4-cc46-6a8f-a97c">
+      <characteristics>
+        <characteristic name="Description" typeId="4fb8-b981-f8c4-20fe"/>
+      </characteristics>
+    </profile>
+    <profile name="Librarian" typeId="23c1-e5fe-aea5-6b23" typeName="Tags" hidden="false" id="a207-f4e3-f39f-ec78">
+      <characteristics>
+        <characteristic name="Description" typeId="4fb8-b981-f8c4-20fe"/>
+      </characteristics>
+    </profile>
+    <profile name="Chaplain" typeId="23c1-e5fe-aea5-6b23" typeName="Tags" hidden="false" id="64d3-b131-3d87-e2e3">
+      <characteristics>
+        <characteristic name="Description" typeId="4fb8-b981-f8c4-20fe"/>
+      </characteristics>
+    </profile>
+    <profile name="Command Squad" typeId="23c1-e5fe-aea5-6b23" typeName="Tags" hidden="false" id="4cfe-155d-35d1-746d">
+      <characteristics>
+        <characteristic name="Description" typeId="4fb8-b981-f8c4-20fe"/>
+      </characteristics>
+    </profile>
+    <profile name="Standard Bearer" typeId="23c1-e5fe-aea5-6b23" typeName="Tags" hidden="false" id="121b-55d2-f83b-7cff">
+      <characteristics>
+        <characteristic name="Description" typeId="4fb8-b981-f8c4-20fe"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Space Marine Character" hidden="false" id="e279-661b-da2c-4ff1" publicationId="8fc3-ec0f-e08c-c22f">
+      <categoryLinks>
+        <categoryLink targetId="3c2d-da7e-7df7-94f8" id="9f11-19d7-a723-04bc" primary="false" name="Infantry"/>
+        <categoryLink targetId="b43a-536a-6522-6412" id="e408-2285-792b-a3f6" primary="false" name="Character"/>
+        <categoryLink targetId="14c4-a37c-80a1-c146" id="b377-7b3f-bca1-d40c" primary="false" name="Shield"/>
+        <categoryLink targetId="c7b5-25af-e7fc-c024" id="5b8f-01da-913e-1948" primary="false" name="Grenade"/>
+        <categoryLink targetId="bfc0-5a14-b1c7-68f5" id="2d17-b11c-4dc2-1321" primary="false" name="Anti-Tank Grenade"/>
+        <categoryLink targetId="1d93-2f83-ddee-cffd" id="ab5f-3a08-4ff2-babe" primary="false" name="Character Unit"/>
+        <categoryLink targetId="224a-8fbf-c14e-c07e" id="2a9a-94ce-e17b-a2d3" primary="false" name="Space Marines"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Space Marine Character" hidden="false" id="7dbb-94fb-36e6-179e">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Techmarine" hidden="false" id="b3be-3b19-0a08-f9dc">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Standard Bearer" hidden="false" id="bde7-9462-24a3-70ed">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lieutenant" hidden="false" id="f63c-df56-f708-1796">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Librarian" hidden="false" id="1055-7dba-5ee0-30f9">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Judge" hidden="false" id="32fd-1cd7-58ac-537f">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Champion" hidden="false" id="7790-cf13-2b65-2648">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaplain" hidden="false" id="1fca-01ea-1397-2d2f">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="e1d0-f476-4999-c651">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Option 1" hidden="false" id="b540-6d4c-59c3-44bb">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b89e-4f62-39a0-6d96"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d653-e068-e781-61ca"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="5657-cba3-528c-556a">
+                      <entryLinks>
+                        <entryLink import="true" name="Bolt Rifle" hidden="false" id="579b-6743-de1f-7631" type="selectionEntry" targetId="f69e-b256-17ad-84fb"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="c3c7-6b6b-68ce-77f6">
+                      <entryLinks>
+                        <entryLink import="true" name="Storm Shield" hidden="false" id="e838-61ba-fb6f-777e" type="selectionEntry" targetId="8e70-9220-1149-ec93"/>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Option 2" hidden="false" id="d7c5-d02d-765f-0adb">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="cc9f-5649-df18-f6f4">
+                      <entryLinks>
+                        <entryLink import="true" name="Bolt Pistol" hidden="false" id="6f9c-d7c7-0b1a-37aa" type="selectionEntry" targetId="ef9e-9c3b-6377-11ba"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolt Pistol" hidden="false" id="305b-3c4e-364d-06aa">
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Bolt Pistol" hidden="false" id="293e-9ef5-c3f3-11e4" type="selectionEntry" targetId="38a5-bb09-8522-375f"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="8460-ec3d-f94d-1e3e">
+                      <entryLinks>
+                        <entryLink import="true" name="Plasma Pistol" hidden="false" id="bebf-2a7e-01a5-b11f" type="selectionEntry" targetId="2805-c40a-4ff0-cb95"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flame Pistol" hidden="false" id="08bd-6a0a-34d5-8853">
+                      <entryLinks>
+                        <entryLink import="true" name="Flame Pistol" hidden="false" id="8c2f-e742-61e3-1881" type="selectionEntry" targetId="7db2-3bb8-2ab3-fbec"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Melta Pistol" hidden="false" id="2e7e-5ee8-73a7-f087">
+                      <entryLinks>
+                        <entryLink import="true" name="Melta Pistol" hidden="false" id="0455-0686-6e71-91a0" type="selectionEntry" targetId="f9b7-9e07-249c-c2d6"/>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0fae-36d3-ae70-cfcf"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e4b-fcaf-5621-36cd"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Option 3" hidden="false" id="eb0f-5641-a3e8-5f2f">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Basic Attack" hidden="false" id="c68a-0c68-9f14-a607">
+                      <entryLinks>
+                        <entryLink import="true" name="Basic Attack" hidden="false" id="2fca-f1f6-b4f1-ee82" type="selectionEntry" targetId="cc6e-b17c-8ef7-273e"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="756a-3adc-a3a2-ee87">
+                      <entryLinks>
+                        <entryLink import="true" name="Chainsword" hidden="false" id="36aa-1171-92e9-5f81" type="selectionEntry" targetId="e409-6fb1-aa58-f603"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="34f4-3fff-08f7-ce04">
+                      <entryLinks>
+                        <entryLink import="true" name="Power Weapon" hidden="false" id="9c4c-d403-2e35-8750" type="selectionEntry" targetId="1fca-e1d0-6f63-43c5"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="a62d-5f68-2d7d-67f3">
+                      <entryLinks>
+                        <entryLink import="true" name="Thunder Hammer" hidden="false" id="15d0-843d-a25b-bc8b" type="selectionEntry" targetId="34b9-dc9f-9f57-b399"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="7849-1b95-003c-3b56">
+                      <entryLinks>
+                        <entryLink import="true" name="Power Fist" hidden="false" id="bfae-dba7-4632-aa6f" type="selectionEntry" targetId="d6b3-eaf6-9ddd-648f"/>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d67d-b547-e5b4-343a"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b96-0cef-eddd-618b"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="20"/>
+              </costs>
+              <profiles>
+                <profile name="Captain" typeId="2e2f-6847-bef9-9103" typeName="Unit" hidden="false" id="6ebd-a006-9cbf-a08c" publicationId="8fc3-ec0f-e08c-c22f">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="ad4c-f78a-98f3-d5b3">6</characteristic>
+                    <characteristic name="Ranged Bonus" typeId="bb57-8645-de31-0000">3</characteristic>
+                    <characteristic name="Melee Bonus" typeId="6dfe-a0ce-78d9-f896">3</characteristic>
+                    <characteristic name="Defense" typeId="97f0-fc8e-2857-ac47">7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink targetId="3c2d-da7e-7df7-94f8" id="0ab9-7c33-af53-10e7" primary="false" name="Infantry"/>
+                <categoryLink targetId="b43a-536a-6522-6412" id="c1ab-d163-dee4-d2e8" primary="false" name="Character"/>
+              </categoryLinks>
+              <infoLinks>
+                <infoLink name="Captain" id="75cf-bb74-74d3-b51f" hidden="false" type="profile" targetId="bc1f-c66a-554f-7e92" publicationId="8fc3-ec0f-e08c-c22f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="e752-4119-cfa7-a55d">
+              <costs>
+                <cost name="Points" typeId="eabd-dc61-7875-9827" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b641-8a82-ce1c-2af0"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f67-c233-b9d4-84a0"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="f69e-b256-17ad-84fb" publicationId="8fc3-ec0f-e08c-c22f">
+      <profiles>
+        <profile name="Bolt Rifle" typeId="71db-75f6-f48a-44d7" typeName="Ranged Weapons" hidden="false" id="f2a3-4815-31e4-d728" publicationId="8fc3-ec0f-e08c-c22f">
+          <characteristics>
+            <characteristic name="Range" typeId="9cfb-9a03-e6e5-9229">24</characteristic>
+            <characteristic name="Attacks" typeId="605d-1b61-d633-8ab5">1</characteristic>
+            <characteristic name="Bonus" typeId="80c3-5825-ff29-d02e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="8e70-9220-1149-ec93" publicationId="8fc3-ec0f-e08c-c22f">
+      <categoryLinks>
+        <categoryLink targetId="2c59-6d25-8fd5-bfa1" id="9a24-329f-002a-c896" primary="false" name="Storm Shield"/>
+        <categoryLink targetId="14c4-a37c-80a1-c146" id="5706-0790-1d76-7c19" primary="false" name="Shield"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Storm Shield" id="a5b7-7680-5593-2d77" hidden="false" type="rule" targetId="6e4f-6354-67b8-82d9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="e409-6fb1-aa58-f603" publicationId="8fc3-ec0f-e08c-c22f">
+      <profiles>
+        <profile name="Chainsword" typeId="47f9-762e-10c1-ed7f" typeName="Melee Weapons" hidden="false" id="1619-be52-f59c-60b0">
+          <characteristics>
+            <characteristic name="Attacks" typeId="b635-2b4d-a118-6ddb">2</characteristic>
+            <characteristic name="Bonus" typeId="8f66-edfd-2680-e43f">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="2fde-ad36-3413-a1cf" id="0e86-f5ad-8305-846c" primary="false" name="Melee"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Melee" id="3fc4-3717-501c-e806" hidden="false" type="rule" targetId="10d0-a843-c1f8-04aa"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="1fca-e1d0-6f63-43c5" publicationId="8fc3-ec0f-e08c-c22f">
+      <profiles>
+        <profile name="Power Weapon" typeId="47f9-762e-10c1-ed7f" typeName="Melee Weapons" hidden="false" id="136e-0198-b07c-934a">
+          <characteristics>
+            <characteristic name="Attacks" typeId="b635-2b4d-a118-6ddb">2</characteristic>
+            <characteristic name="Bonus" typeId="8f66-edfd-2680-e43f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="2fde-ad36-3413-a1cf" id="e4ad-f7ae-12fd-1958" primary="false" name="Melee"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Melee" id="f828-2376-463d-9aec" hidden="false" type="rule" targetId="10d0-a843-c1f8-04aa"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="34b9-dc9f-9f57-b399" publicationId="8fc3-ec0f-e08c-c22f">
+      <categoryLinks>
+        <categoryLink targetId="2fde-ad36-3413-a1cf" id="36c2-6eee-6c87-eba5" primary="false" name="Melee"/>
+        <categoryLink targetId="d323-69b4-8c8f-00a5" id="f967-34d8-ef8e-709e" primary="false" name="Heavy"/>
+        <categoryLink targetId="2804-5113-6675-1050" id="1745-e65d-dd11-eca6" primary="false" name="Arc X"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Thunder Hammer" typeId="47f9-762e-10c1-ed7f" typeName="Melee Weapons" hidden="false" id="5863-9168-9b02-6dcb">
+          <characteristics>
+            <characteristic name="Attacks" typeId="b635-2b4d-a118-6ddb">1</characteristic>
+            <characteristic name="Bonus" typeId="8f66-edfd-2680-e43f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melee" id="4384-2fd5-13df-6ad0" hidden="false" type="rule" targetId="10d0-a843-c1f8-04aa"/>
+        <infoLink name="Heavy" id="abaa-489c-15f5-77b1" hidden="false" type="rule" targetId="4e41-f6a3-8bf4-d1d5"/>
+        <infoLink name="Arc 3" id="944b-27c3-47f3-bd06" hidden="false" type="rule" targetId="9938-467c-296c-c7ee"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="d6b3-eaf6-9ddd-648f" publicationId="8fc3-ec0f-e08c-c22f">
+      <profiles>
+        <profile name="Power Fist" typeId="47f9-762e-10c1-ed7f" typeName="Melee Weapons" hidden="false" id="481f-b90b-ce6c-beb3">
+          <characteristics>
+            <characteristic name="Attacks" typeId="b635-2b4d-a118-6ddb">1</characteristic>
+            <characteristic name="Bonus" typeId="8f66-edfd-2680-e43f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="2fde-ad36-3413-a1cf" id="a458-8f49-f6e9-f14a" primary="false" name="Melee"/>
+        <categoryLink targetId="3f53-d660-265c-9e5a" id="b3f7-6817-f143-016f" primary="false" name="Anti-Vehicle X"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Bolt Pistol" hidden="false" id="38a5-bb09-8522-375f" publicationId="8fc3-ec0f-e08c-c22f">
+      <profiles>
+        <profile name="Heavy Bolt Pistol" typeId="71db-75f6-f48a-44d7" typeName="Ranged Weapons" hidden="false" id="d9a6-fd32-e982-c737">
+          <characteristics>
+            <characteristic name="Range" typeId="9cfb-9a03-e6e5-9229">18</characteristic>
+            <characteristic name="Attacks" typeId="605d-1b61-d633-8ab5">1</characteristic>
+            <characteristic name="Bonus" typeId="80c3-5825-ff29-d02e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="57f2-efb9-393d-699d" id="1cb0-8940-ac97-4ffd" primary="false" name="Pistol"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Pistol" id="d746-b85f-76ce-fc6e" hidden="false" type="rule" targetId="fb58-f398-9d2d-dad6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="2805-c40a-4ff0-cb95">
+      <categoryLinks>
+        <categoryLink targetId="57f2-efb9-393d-699d" id="cce3-26b6-e530-b071" primary="false" name="Pistol"/>
+        <categoryLink targetId="4212-dd40-d112-fdd3" id="4efc-3fd0-5668-e90a" primary="false" name="Dangerous"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Plasma Pistol" typeId="71db-75f6-f48a-44d7" typeName="Ranged Weapons" hidden="false" id="1fde-dc3f-22d4-27d3">
+          <characteristics>
+            <characteristic name="Range" typeId="9cfb-9a03-e6e5-9229">12</characteristic>
+            <characteristic name="Attacks" typeId="605d-1b61-d633-8ab5">1</characteristic>
+            <characteristic name="Bonus" typeId="80c3-5825-ff29-d02e">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pistol" id="14d4-0764-27a1-d007" hidden="false" type="rule" targetId="fb58-f398-9d2d-dad6"/>
+        <infoLink name="Dangerous" id="ecae-2b4e-54a7-6f32" hidden="false" type="rule" targetId="6bea-3655-4430-b758"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="ef9e-9c3b-6377-11ba">
+      <categoryLinks>
+        <categoryLink targetId="57f2-efb9-393d-699d" id="bca7-9aaf-8d66-939a" primary="false" name="Pistol"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bolt Pistol" typeId="71db-75f6-f48a-44d7" typeName="Ranged Weapons" hidden="false" id="98dd-8c0d-5ae8-abcd">
+          <characteristics>
+            <characteristic name="Range" typeId="9cfb-9a03-e6e5-9229">12</characteristic>
+            <characteristic name="Attacks" typeId="605d-1b61-d633-8ab5">1</characteristic>
+            <characteristic name="Bonus" typeId="80c3-5825-ff29-d02e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pistol" id="e0ba-289b-d77e-b51d" hidden="false" type="rule" targetId="fb58-f398-9d2d-dad6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta Pistol" hidden="false" id="f9b7-9e07-249c-c2d6" publicationId="8fc3-ec0f-e08c-c22f">
+      <categoryLinks>
+        <categoryLink targetId="57f2-efb9-393d-699d" id="1f1f-34ae-bd81-f02f" primary="false" name="Pistol"/>
+        <categoryLink targetId="3f53-d660-265c-9e5a" id="18f8-57ff-f707-0589" primary="false" name="Anti-Vehicle X"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Melta Pistol" typeId="71db-75f6-f48a-44d7" typeName="Ranged Weapons" hidden="false" id="24a1-7d8e-a8c5-e686" publicationId="8fc3-ec0f-e08c-c22f">
+          <characteristics>
+            <characteristic name="Range" typeId="9cfb-9a03-e6e5-9229">6</characteristic>
+            <characteristic name="Attacks" typeId="605d-1b61-d633-8ab5">1</characteristic>
+            <characteristic name="Bonus" typeId="80c3-5825-ff29-d02e">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="eabd-dc61-7875-9827" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Pistol" id="0abc-18c4-bf06-db3b" hidden="false" type="rule" targetId="fb58-f398-9d2d-dad6"/>
+        <infoLink name="Anti-Vehicle 2" id="35e8-51d4-f0e4-1d3e" hidden="false" type="rule" targetId="85b6-3fc7-60c0-69d1"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flame Pistol" hidden="false" id="7db2-3bb8-2ab3-fbec" publicationId="8fc3-ec0f-e08c-c22f">
+      <categoryLinks>
+        <categoryLink targetId="57f2-efb9-393d-699d" id="cf4f-ed3f-7d14-1ea7" primary="false" name="Pistol"/>
+        <categoryLink targetId="198c-9ad6-dae5-fe25" id="6551-8700-4982-76b5" primary="false" name="Spray X"/>
+        <categoryLink targetId="c3a6-620f-5248-c489" id="74d4-4a84-77f3-e2d4" primary="false" name="Anti-Infantry X"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Flame Pistol" typeId="71db-75f6-f48a-44d7" typeName="Ranged Weapons" hidden="false" id="87e0-05a4-cfea-f307">
+          <characteristics>
+            <characteristic name="Range" typeId="9cfb-9a03-e6e5-9229">6</characteristic>
+            <characteristic name="Attacks" typeId="605d-1b61-d633-8ab5">X</characteristic>
+            <characteristic name="Bonus" typeId="80c3-5825-ff29-d02e">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pistol" id="21b3-1235-3883-0750" hidden="false" type="rule" targetId="fb58-f398-9d2d-dad6"/>
+        <infoLink name="Spray 3" id="fe6f-eb5d-977d-1193" hidden="false" type="rule" targetId="9090-7c72-7f55-d608"/>
+        <infoLink name="Anti-Infantry 2" id="afa8-fbf5-fb9b-ba2e" hidden="false" type="rule" targetId="c986-4c9a-dde8-3e4d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Basic Attack" hidden="false" id="cc6e-b17c-8ef7-273e" publicationId="8fc3-ec0f-e08c-c22f">
+      <categoryLinks>
+        <categoryLink targetId="2fde-ad36-3413-a1cf" id="1ff2-f782-2145-ad80" primary="false" name="Melee"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Basic Attack" typeId="47f9-762e-10c1-ed7f" typeName="Melee Weapons" hidden="false" id="120f-0c25-342e-b8c7">
+          <characteristics>
+            <characteristic name="Attacks" typeId="b635-2b4d-a118-6ddb">1</characteristic>
+            <characteristic name="Bonus" typeId="8f66-edfd-2680-e43f">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melee" id="d0b9-9446-c1ca-bba3" hidden="false" type="rule" targetId="10d0-a843-c1f8-04aa"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
